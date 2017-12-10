@@ -97,3 +97,9 @@ After creating the file, add it to the git repository.
 git add newFile.txt
 git commit -m "added new file"
 
+
+
+Removing Files
+
+
+
