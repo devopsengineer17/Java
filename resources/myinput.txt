@@ -1,0 +1,9 @@
+9 6 8 
+H 1 1 SITE Local 
+H 3 1 CANS Soup Containers 
+H 6 3 BEES Nectar gatherers 
+H 9 3 SIDE Fries or SLAW 
+V 1 1 SUB Long Sandwich 
+V 2 3 TEE Casual Top 
+V 4 5 ALI _baba 
+V 5 1 SEE Observe 
