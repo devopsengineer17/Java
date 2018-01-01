@@ -81,3 +81,25 @@ git push myremote git annex copy --to myremote mybigfile this command copies the
 git annex drop mybigfile remove content from local repo
 git annex get mybigfile retrieve the content
 git annex copy --from myremote mybigfilespecify the remote from which to get the file
+
+
+
+There are many ways to create a file using BASH.
+
+using touch touch newFile.txt only creates.
+using echo echo > newFile.txt only creates.
+using vim vim newFile.txt creates and can start editing the file.
+
+Also the .txt extension is only for convenience and categorization. Some editors view the extension to format the data, but for a txt there's no differnce.
+
+After creating the file, add it to the git repository.
+
+git add newFile.txt
+git commit -m "added new file"
+
+
+
+Removing Files
+
+
+

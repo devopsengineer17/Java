@@ -6,11 +6,11 @@ import java.util.function.BiFunction;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
-public class CrosswordOriginal {
+public class Crossword {
 
 	public static void main(String[] args) {
-		new CrosswordOriginal(Arrays.asList("5 4 4\n#_#_#\n_____\n#_##_\n#_##_\ntuna\nmusic\ncan\nhi".split("\n")));
-		new CrosswordOriginal(Arrays
+		new Crossword(Arrays.asList("5 4 4\n#_#_#\n_____\n#_##_\n#_##_\ntuna\nmusic\ncan\nhi".split("\n")));
+		new Crossword(Arrays
 				.asList("6 6 4\n##_###\n#____#\n___#__\n#_##_#\n#____#\n##_###\nnice\npain\npal\nid".split("\n")));
 	}
 
@@ -27,7 +27,7 @@ public class CrosswordOriginal {
 		System.out.println(indent + String.format(message, args));
 	}
 
-	private CrosswordOriginal(List<String> lines) {
+	private Crossword(List<String> lines) {
 		// Parse input data
 		final int[] sizes = Stream.of(lines.get(0).split("\\s+")).mapToInt(Integer::parseInt).toArray();
 		width = sizes[0];
