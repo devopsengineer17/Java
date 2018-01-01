@@ -144,7 +144,7 @@ class Footballer5 extends Futbol {
 		return "Bayern Munich"; 
 	}
 	public String interestingFact() { 
-		return "Won 2002 World Cup and many club titles";  
+		return "In 2012, he scored a crucial goal against Kazakhstan during a 2014 World Cup qualification match";  
 	}
 }
 
