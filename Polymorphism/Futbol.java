@@ -24,6 +24,9 @@ class Futbol {
 		return 1000; 
 		
 	}
+	public String team() { 
+		return "Blank"; 
+	}
 	
 	public String interestingFact() { 
 		return "Nothing Interesting!"; 
@@ -56,12 +59,19 @@ class Footballer extends Futbol {
 	
 	public Footballer() { 
 		super("Ronaldinho");
-	}
+	} 
 	
-//	@Override
+//	Below override annotation doesnt work 
+// 	However the method overrides the method from above (declared in Futboll class)
+//	@Override					
 	public int jnumber() {
 		return 10; 	
 	}
+	
+	public String team() { 
+		return "Retired"; 
+	}
+	
 	@Override
 	public String interestingFact() { 
 		return "Won 2002 World Cup and many club titles";  
@@ -73,50 +83,65 @@ class Footballer extends Futbol {
 class Footballer2 extends Futbol { 
 	
 	public Footballer2() { 
-		super("Ronaldinho");
+		super("Mohammed Salah");
 	}
 	public int jnumber() {
-		return 10; 	
+		return 11; 	
+	}
+	
+	public String team() { 
+		return "Liverpool"; 
 	}
 	
 	public String interestingFact() { 
-		return "Won 2002 World Cup and many club titles";  
+		return "Best signing of Premier League Season 2017";  
 	}
 }
 
 class Footballer3 extends Futbol { 
 	
 	public Footballer3() { 
-		super("Ronaldinho");
+		super("Renato Sanches");
 	}
 	public int jnumber() {
-		return 10; 	
+		return 16; 	
 	}
-	public String interestingFact() { 
-		return "Won 2002 World Cup and many club titles";  
+	public String team() { 
+		return "Swansea City"; 
 	}
+	
+//	@Override
+//	public String interestingFact() { 
+//		return "Won 2002 World Cup and many club titles";  
+//	}
 }
 
 class Footballer4 extends Futbol { 
 	
 	public Footballer4() { 
-		super("Ronaldinho");
+		super("Claus Lundekwam");
 	}
 	public int jnumber() {
-		return 10; 	
+		return 5; 	
 	}
-	public String interestingFact() { 
-		return "Won 2002 World Cup and many club titles";  
+	public String team() { 
+		return "Leister City"; 
 	}
+//	public String interestingFact() { 
+//		return "Nothing Interesting";  
+//	}
 }
 
 class Footballer5 extends Futbol { 
 	
 	public Footballer5() { 
-		super("Ronaldinho");
+		super("David Alaba");
 	}
 	public int jnumber() {
-		return 10; 	
+		return 27; 	
+	}
+	public String team() { 
+		return "Bayern Munich"; 
 	}
 	public String interestingFact() { 
 		return "Won 2002 World Cup and many club titles";  

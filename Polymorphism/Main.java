@@ -15,7 +15,7 @@ public class Main {
 //		f.setName("RonaldinhoExample");		//	Could invoke the name by using setName 
 //		f.setNumber(10);					//  Could invoke the number by using setNumber
 		
-		System.out.println("Name: " + one.getName() + "\n" + "Jersey Number: " + one.jnumber() + "\n" + "Interesting Facts: " + one.interestingFact() + "\n"); 
+		System.out.println("Name: " + one.getName() + "\n" + "Jersey Number: " + one.jnumber() + "\n" + "Current Team/ Team Played For: " + one.team() + "\n" +  "Interesting Facts: " + one.interestingFact() + "\n" ); 
 	}
 
 	}
